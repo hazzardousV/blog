@@ -1,0 +1,20 @@
+<div id="header"><h1>Launch</h1></div>
+<h1> Change the Tag </h1>
+<%= form_for(@tag) do |f| %>
+  <ul>
+  <% @tag.errors.full_messages.each do |error| %>
+    <li><%= error %></li>
+  <% end %>
+  </ul>
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
+<div id="footer">
+December 23rd,
+  Quin Weidner
+</div>

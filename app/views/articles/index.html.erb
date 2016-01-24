@@ -1,5 +1,5 @@
+<div id="header"><h1>Launch</h1></div>
 <h1>All Articles</h1>
-
 <ul id="articles">
   <% @articles.each do |article| %>
     <li>
@@ -7,5 +7,12 @@
     </li>
   <% end %>
 </ul>
-
-<%= link_to "Create a New Article", new_article_path, class: "new_article" %>
+<hr>
+<%= link_to "All Tags", tags_path %>
+<% if logged_in? %>
+	<%= link_to "Create a New Article", new_article_path, class: "new_article" %>
+<% end %>
+<div id="footer">
+January 24th,
+	Quin Weidner
+</div>

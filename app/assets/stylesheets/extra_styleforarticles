@@ -1,0 +1,36 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+#header {
+  background-color:black;
+  color:white;
+  text-align:center;
+  }
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:150px;
+    width:100px;
+    float:right;
+    padding:5px; 
+}
+#section {
+    width:400px;
+    position:relative;
+    padding:10px; 
+
+    
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
+
+.section a:link, a:visited {
+    color:black;
+    }
