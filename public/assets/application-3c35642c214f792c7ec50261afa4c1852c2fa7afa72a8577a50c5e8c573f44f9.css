@@ -1,3 +1,41 @@
+/* line 3, /Users/thomasweidnerv/railsbridge/blog/app/assets/stylesheets/styles.css.scss */
+body {
+  background-color: #AAA;
+  font-family: Verdana, Helvetica, Arial;
+  font-size: 14px;
+}
+
+/* line 11, /Users/thomasweidnerv/railsbridge/blog/app/assets/stylesheets/styles.css.scss */
+a {
+  color: #0000FF;
+}
+/* line 13, /Users/thomasweidnerv/railsbridge/blog/app/assets/stylesheets/styles.css.scss */
+a img {
+  border: none;
+}
+
+/* line 18, /Users/thomasweidnerv/railsbridge/blog/app/assets/stylesheets/styles.css.scss */
+.clear {
+  clear: both;
+  height: 0;
+  overflow: hidden;
+}
+
+/* line 24, /Users/thomasweidnerv/railsbridge/blog/app/assets/stylesheets/styles.css.scss */
+#container {
+  width: 75%;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px 40px;
+  border: solid 1px black;
+  margin-top: 20px;
+}
+
+/* line 33, /Users/thomasweidnerv/railsbridge/blog/app/assets/stylesheets/styles.css.scss */
+#content {
+  clear: both;
+  padding-top: 20px;
+}
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -10,9 +48,10 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
- *= require_self
+
+
  */
+
 @charset "UTF-8";
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,
 td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline}
