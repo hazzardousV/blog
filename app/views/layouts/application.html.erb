@@ -8,8 +8,10 @@
 </head>
 
 <body>
-	<p class="flash"><%=flash.notice %></p>
-
+  <div id="header"><h1>
+    <a href="http://barelaunch.herokuapp.com/">Launch</a></h1>
+    <p class="flash"><%=flash.notice %></p>
+  </div>
 
 <div>
     	<%= yield %>
@@ -25,5 +27,10 @@
       </h6>
 </div>
 
+<div id="footer">
+December 23rd,
+  Quin Weidner <br>
+  <a href="www.parkinsonlaunch.wordpress.com">Launch Wordpress</a>
+</div>
 </body>
 </html>

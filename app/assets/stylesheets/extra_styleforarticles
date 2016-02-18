@@ -30,7 +30,7 @@
     text-align:center;
     padding:5px; 
 }
-
+// I changed this to white from black to see if I can fix the Launch header. Change back if I get a chance.
 .section a:link, a:visited {
-    color:black;
+    color:white;
     }
